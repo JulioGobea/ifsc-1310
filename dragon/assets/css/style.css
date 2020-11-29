@@ -23,3 +23,33 @@ header.primary {
   padding: 6em 2em;
   position: relative;
 }
+
+header.primary::before {
+  content: "";
+  background-image: url(https://raw.githubusercontent.com/JulioGobea/ifsc-1310/master/dragon/assets/img/dragon_launch.png);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+}
+
+header.primary h1 {
+  font-size: 3.2rem;
+  margin: 20px 0;
+  position: relative;
+}
+
+header.primary h1 a {
+  color: #ffffff;
+  background-image: url("https://assets.codepen.io/7248/logo-2.png");
+  display: block;
+  width: 450px;
+  height: 70px;
+  margin: 0 auto;
+  text-indent:100%;
+  white-space:nowrap;
+  overflow:hidden;
+}
