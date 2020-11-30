@@ -105,12 +105,6 @@ header.primary nav a:active {
   border-bottom: 1px solid #c0c0c0;
 }
 
-#content table{
-  width:100%;
-  border: 1px solid #c0c0c0;
-  border-collapse:collapse;
-}
-
 #content caption{
   font-weight:bold;
   margin:10px;
@@ -119,12 +113,7 @@ header.primary nav a:active {
   color: #33536b;
 }
 
-#content th {
-  background:#181C1F;
-  color:#ffffff;
-  text-align:left;
-  padding:10px;
-}
+
 
 #content td{
   border:1px solid #c0c0c0;
@@ -141,18 +130,11 @@ header.primary nav a:active {
 
 #articles {
   background: #285092;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
 }
 
-#articles .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  border-bottom: 1px solid #c0c0c0;
-  padding: 0 0 4em 0;
-}
-
-#content h2 {
+#content h2{
   flex: 0 0 100%;
   color: #3D336B;
   text-align: center;
@@ -160,25 +142,25 @@ header.primary nav a:active {
   font-size: 2em;
 }
 
-#articles h2 {
-  color: #fff;
+#articles h2{
+  color: #ffffff;
+  padding:10px 350px 10px 350px;
+}
+
+
+#articles article.post {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+ 
+  transition: 0.6s;
+  font-size: 1rem;
+  border-radius: 10px;
+  background: #ffffff;
 }
 
 #articles article.post {
-  width: 30%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-  padding: 10px;
-  transition: 0.6s;
-  font-size: 0.8rem;
-  border-radius: 10px;
-  background: #fff;
-}
-
-#articles article.post h2 {
-  font-size: 1.5em;
+  font-size: 1em;
   text-shadow: none;
 }
-
 #articles article.post:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
@@ -193,16 +175,15 @@ header.primary nav a:active {
 #articles .post figure {
   margin: 0;
 }
-
 #articles .post img {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 #articles ul {
-  padding: 0 20px;
+  padding: 20px 20px;
 }
 #articles li {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 #colophon {
@@ -211,7 +192,7 @@ header.primary nav a:active {
 
 #colophon h6 {
   padding: 20px;
-  margin: 0;
+  margin: 0px;
   color: #fff;
   text-align: center;
   font-size: 0.9rem;
