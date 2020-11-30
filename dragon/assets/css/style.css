@@ -44,7 +44,7 @@ header.primary h1 {
 
 header.primary h1 a {
   color: #ffffff;
-  background-image: url("https://assets.codepen.io/7248/logo-2.png");
+  background-image: url(https://raw.githubusercontent.com/JulioGobea/ifsc-1310/master/dragon/assets/img/dragon_logo.png);
   display: block;
   width: 450px;
   height: 70px;
