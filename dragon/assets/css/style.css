@@ -131,8 +131,9 @@ header.primary nav a:active {
 #articles {
   background: #285092;
   padding: 10px 10px 10px 10px;
-  border-radius: 10px;
+  border-radius: 50px;
 }
+
 
 #content h2{
   flex: 0 0 100%;
