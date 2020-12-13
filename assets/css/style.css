@@ -1,3 +1,43 @@
-body{
-    background-image: url("https://github.com/JulioGobea/ifsc-1310/blob/master/assets/img/pattern.png");
+
+body {
+  background-image: url("https://raw.githubusercontent.com/JulioGobea/ifsc-1310/master/assets/img/ZenBG.png");
+}
+
+div.a {
+    color:#FFD700;
+}
+
+a:link {
+  color: #FFA07A;
+}
+
+a:visited {
+  color: #FF1493;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+h1 {
+  text-shadow: 2px 2px #000000;
+}
+nav{
+ text-shadow: 2px 2px #000000; 
+}
+
+p{
+  text-shadow: 2px 2px #000000;
+}
+
+li{
+  text-shadow: 2px 2px #000000;
+}
+
+a{
+  text-shadow: 2px 2px #000000;
 }
